@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";
 @tailwind utilities;
 
 :root {
@@ -34,6 +33,6 @@ body {
 }
 
 a {
-  color: #24ada9;
+  color: #007595;
   cursor: pointer;
 }

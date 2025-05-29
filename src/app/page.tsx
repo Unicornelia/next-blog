@@ -13,7 +13,7 @@ export default function Home() {
               nisi, senectus pharetra, ac porttitor orci.
             </p>
             <Link
-              href="/blog/abot"
+              href="/blog/posts"
               className="outline-1 outline-offset-2 border-gray-700 text-cyan-700 hover:text-white py-2 px-4 rounded hover:bg-cyan-800 md:w-max"
             >
               Go to Blog

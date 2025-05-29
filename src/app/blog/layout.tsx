@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../globals.css";
+import "../ui/styles/globals.css";
 import { ReactNode } from "react";
 import SideNav from "@/app/ui/components/sidenav";
 
