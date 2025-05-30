@@ -4,7 +4,7 @@ import Post from "@/app/ui/components/posts/Post";
 export default function Page() {
   return (
     <>
-      <h1 className="text-4xl text-cyan-700 font-bold mb-4">Blog Posts</h1>
+      <h1 className="text-4xl text-cyan-800 font-bold mb-4">Blog Posts</h1>
       {posts.map((post) => (
         <Post
           id={post.id}
