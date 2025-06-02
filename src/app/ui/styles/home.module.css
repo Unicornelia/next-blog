@@ -1,0 +1,15 @@
+.text_forest_blues {
+    color: rgba(7, 68, 74, 1.000);
+}
+
+.bg_forest_blues {
+    background-color: rgba(7, 68, 74, 1.000);
+}
+
+.fit_content {
+    width: fit-content;
+}
+
+.bg_gradient {
+    /* https://grabient.com/HQVhCYBpQDgTmgNgMwAZoQOzQCxuspgsODNsAIwiLQWZTKjjojCJWQXA7iJA/?style=linearGradient */
+    background: linear-gradient(90deg, rgba(7, 68, 74, 1.000) 0.000%, rgba(28, 88, 66, 1.000) 25.000%, rgba(71, 112, 64, 1.000) 50.000%, rgba(128, 138, 70, 1.000) 75.000%, rgba(188, 165, 82, 1.000) 100.000%)}
