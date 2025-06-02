@@ -1,6 +1,7 @@
 import styles from "@/app/ui/styles/home.module.css";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,10 +26,19 @@ export default function Home() {
               Go to Blog
             </Link>
           </div>
+          <div className="relative flex justify-center items-center">
+            <Image
+              src={"/woods.jpg"}
+              className="hidden md:block z-10"
+              alt="bg image"
+              width={1000}
+              height={760}
+            />
+          </div>
         </div>
       </div>
       <div
-        className={`hidden md:block absolute top-0 right-0 bottom-0 left-2/3 z-0 ${styles.bg_forest_blues}`}
+        className={`hidden md:block absolute top-0 right-0 bottom-0 left-2/3 z-0 ${styles.bg_gradient}`}
       ></div>
     </main>
   );
