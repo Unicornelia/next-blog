@@ -2,6 +2,7 @@ import styles from "@/app/ui/styles/home.module.css";
 
 import Link from "next/link";
 import Image from "next/image";
+import { lusitana } from "@/app/ui/fonts";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <div className="bg-white border-2 border-purple-100 rounded-lg p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col justify-center">
             <h1
-              className={`text-4xl font-bold mb-4 ${styles.text_forest_blues}`}
+              className={`${lusitana.className} text-4xl font-bold mb-4 ${styles.text_forest_blues}`}
             >
               Welcome
             </h1>
